@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="build/react.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    
+      
+<script type="text/jsx" src="helloworld.js"></script>
+<script>
+var xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","movieData.json",true);
+xmlhttp.send();
+var jsonResponse = JSON.parse(xmlhttp.responseText);
+for (var i=0; i<jsonResponse.length; i++) {
+document.write("<li>" + jsonResponse[i].movieName + jsonResponse[i].counter + "</li>");
+}
+</script>
+
+
+    
+  </body>
+</html>
