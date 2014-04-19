@@ -1,7 +1,5 @@
-{"movieData": [
-{"movieName":"Shrek" , "counter":"1" },
-{"movieName":"I Am Legend" , "counter":"3" },
-{"movieName":"The Pursuit of Happyness" , "counter":"2" },
-{"movieName":"300" , "counter":"0" },
-{"movieName":"American Hustle" , "counter": "2"}
-]}
+[{ "movieName":"Shrek" , "counter":"1" },
+{ "movieName":"I Am Legend" , "counter":"3" },
+{ "movieName":"The Pursuit of Happyness" , "counter":"2" },
+{ "movieName":"300" , "counter":"0" },
+{ "movieName":"American Hustle" , "counter": "2"}]
