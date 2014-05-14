@@ -3,13 +3,14 @@ React.renderComponent(
   <h1>Hello, world!</h1>,
   document.getElementById('example')
 );
-
 var MovieTitle = React.createClass({
 	render: function() {
 		        return (
             <tr>
                 <td>{this.props.movie.movieName}</td>
                 <td>{this.props.movie.counter}</td>
+                <td><input type="number" placeholder="Update counter here..." /></td>
+                <td><input type="submit" /></td>
             </tr>
         );
 	}
